@@ -1,0 +1,32 @@
+# Go Builds
+*.out
+*.dll
+*.so
+*.dylib
+
+# Package cash
+bin/
+pkg/
+*.test
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# logs
+logs/
+*.log
+config.yaml
+.env
+
+# Test coverage
+cover.out
+
+# Temps
+*.tmp
+*.temp
+*.bak
